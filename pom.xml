@@ -10,6 +10,8 @@
 	<name>spring-security-demo</name>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
 		<springframework.version>5.0.2.RELEASE</springframework.version>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -54,6 +56,19 @@
 	</dependencies>
 
 	<!-- TO DO: Add support for Maven WAR Plugin -->
+	<build>
+		<finalName>spring-security-demo</finalName>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<!-- Add Maven coordinates (GAV) for: maven-war-plugin -->
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugins</artifactId>
+					<version>3.2.0</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 
+	</build>
 
 </project>
