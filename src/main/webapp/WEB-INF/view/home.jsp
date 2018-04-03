@@ -18,9 +18,9 @@
 	
 	<!-- display user name and role -->
 	<p>
-		User: <security:authenticate property="principal.username" />
+		User: <security:authentication property="principal.username" />
 		<br><br>
-		Role(s): <security:authenticate property="principal.authorities" />
+		Role(s): <security:authentication property="principal.authorities" />
 	</p>
 	
 	<!-- add a logout button -->
