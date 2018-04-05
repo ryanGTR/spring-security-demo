@@ -1,19 +1,34 @@
 <html>
 
 <head>
-	<title>LUV2CODE LEADERS HOME PAGE</title>
+	<title>luv2code LEADERS Home Page</title>
 </head>
 
 <body>
-	<h2>luv2code LEADERS Home Page</h2>
+
+<h2>luv2code LEADERS Home Page</h2>
+
+<hr>
+
+<p>
+	See you in Brazil ... for our annual Leadership retreat!
 	<br>
-	<p>
-		hahahaha
-		<br>
-		I'm Leader!!!
-	</p>
-	<br>
-	<a href="${pageContext.request.contextPath}/">Back to Home Page</a>
+	Keep this trip a secret, don't tell the regular employees LOL :-)
+</p>
+
+<hr>
+
+<a href="${pageContext.request.contextPath}/">Back to Home Page</a>
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
